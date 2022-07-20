@@ -19,7 +19,7 @@
                                 <rect key="frame" x="-13" y="290" width="440" height="444"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0481" translatesAutoresizingMaskIntoConstraints="NO" id="WWe-Hz-rSq">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nearYou" translatesAutoresizingMaskIntoConstraints="NO" id="WWe-Hz-rSq">
                                 <rect key="frame" x="-13" y="451" width="191" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -37,6 +37,10 @@
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dailyToDo" translatesAutoresizingMaskIntoConstraints="NO" id="9td-AH-FNg">
                                 <rect key="frame" x="279" y="440" width="115" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcomeTitle" translatesAutoresizingMaskIntoConstraints="NO" id="ENL-IQ-YNQ">
+                                <rect key="frame" x="37" y="65" width="340" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -63,13 +67,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhS-a0-rKq">
-                                <rect key="frame" x="146" y="116" width="122" height="36"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aboutUsTitle" translatesAutoresizingMaskIntoConstraints="NO" id="WHg-Ag-G3M">
+                                <rect key="frame" x="40" y="44" width="335" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                <color key="textColor" red="0.13945085149867412" green="0.35053559922680411" blue="0.14736365080130612" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5VQ-rq-HrU"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -77,7 +78,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xa8-Kh-tyy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1081" y="-510"/>
+            <point key="canvasLocation" x="-1081.1594202898552" y="-510.26785714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RMd-dY-MBT">
@@ -87,13 +88,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Around You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlA-Xk-aYi">
-                                <rect key="frame" x="131" y="80" width="153" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BVd-oH-ADb">
                                 <rect key="frame" x="164" y="204" width="86" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -130,6 +124,10 @@
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nearYouTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Vdh-Cm-EmC">
+                                <rect key="frame" x="54" y="44" width="307" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F9z-FP-BfF"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -137,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DWC-dn-WTm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-880" y="638"/>
+            <point key="canvasLocation" x="-881.15942028985512" y="637.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dKz-T9-s4A">
@@ -154,13 +152,10 @@
                                 <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To-Dos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UP9-h5-VRE">
-                                <rect key="frame" x="159" y="63" width="97" height="36"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dailyToDoTitle" translatesAutoresizingMaskIntoConstraints="NO" id="SCw-sy-xkf">
+                                <rect key="frame" x="36" y="44" width="342" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3yX-H7-8k5"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -168,7 +163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="srq-eM-CjR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="949" y="-203"/>
+            <point key="canvasLocation" x="947.82608695652186" y="-203.57142857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7f4-uu-qq5">
@@ -199,13 +194,10 @@
                                 <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fashion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3S-fP-Bpk">
-                                <rect key="frame" x="156" y="63" width="102" height="36"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fashionTitle" translatesAutoresizingMaskIntoConstraints="NO" id="gh2-O9-WyI">
+                                <rect key="frame" x="70" y="44" width="275" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uGS-cT-kI7"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -213,7 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ek-b9-5SH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="533" y="-915"/>
+            <point key="canvasLocation" x="531.8840579710145" y="-915.40178571428567"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IUX-Ed-Ddu">
@@ -244,13 +236,10 @@
                                 <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Upcycling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfA-0h-zwP">
-                                <rect key="frame" x="142" y="63" width="131" height="36"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="upCycleTitle" translatesAutoresizingMaskIntoConstraints="NO" id="ScB-j2-MEg">
+                                <rect key="frame" x="61" y="44" width="292" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hgc-Bc-pJ6"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -258,7 +247,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpV-AW-woU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1287" y="-915"/>
+            <point key="canvasLocation" x="1286.9565217391305" y="-915.40178571428567"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZVY-qG-PQe">
@@ -289,13 +278,10 @@
                                 <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Transportation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdD-Ph-1Dc">
-                                <rect key="frame" x="111" y="63" width="192" height="36"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transportationTitle" translatesAutoresizingMaskIntoConstraints="NO" id="uYa-JJ-AJp">
+                                <rect key="frame" x="44" y="44" width="327" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y8O-VG-bAn"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -303,7 +289,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l6A-bo-IsQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1980" y="-509"/>
+            <point key="canvasLocation" x="1979.7101449275365" y="-509.59821428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yO3-L8-Onm">
@@ -334,13 +320,10 @@
                                 <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plant Based Eating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgh-NB-2Dj">
-                                <rect key="frame" x="84" y="63" width="246" height="36"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plantEatTitle" translatesAutoresizingMaskIntoConstraints="NO" id="KJ6-be-zNf">
+                                <rect key="frame" x="42" y="44" width="331" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tff-SI-BoG"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -348,7 +331,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0th-ZJ-pRS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2022" y="166"/>
+            <point key="canvasLocation" x="2021.7391304347827" y="164.73214285714286"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Yk5-Yt-bk4">
@@ -379,13 +362,10 @@
                                 <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Composting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPa-FU-tRz">
-                                <rect key="frame" x="128" y="63" width="159" height="36"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compostingTitle" translatesAutoresizingMaskIntoConstraints="NO" id="39p-sG-zuG">
+                                <rect key="frame" x="59" y="44" width="296" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ywF-fD-Fw2"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -393,7 +373,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zu3-4x-aPJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="587" y="525"/>
+            <point key="canvasLocation" x="586.95652173913049" y="525"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="60c-SS-8hM">
@@ -424,13 +404,10 @@
                                 <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Water Use" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFn-07-8fb">
-                                <rect key="frame" x="138" y="63" width="138" height="36"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="waterUseTitle" translatesAutoresizingMaskIntoConstraints="NO" id="qfR-6C-lmm">
+                                <rect key="frame" x="61" y="44" width="292" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="va9-XF-b0f"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -438,15 +415,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EnE-Lm-6PQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1287" y="525"/>
+            <point key="canvasLocation" x="1286.9565217391305" y="525"/>
         </scene>
     </scenes>
     <resources>
         <image name="Fredrick" width="2231" height="1778"/>
-        <image name="IMG_0481" width="369" height="375"/>
         <image name="aboutUs" width="591" height="379"/>
+        <image name="aboutUsTitle" width="517" height="138"/>
+        <image name="compostingTitle" width="531" height="200"/>
         <image name="dailyToDo" width="497" height="464"/>
+        <image name="dailyToDoTitle" width="644" height="149"/>
+        <image name="fashionTitle" width="405" height="224"/>
+        <image name="nearYou" width="369" height="375"/>
+        <image name="nearYouTitle" width="527" height="154"/>
         <image name="ourRecs" width="355" height="392"/>
+        <image name="plantEatTitle" width="515" height="125"/>
         <image name="resources" width="747" height="265"/>
+        <image name="transportationTitle" width="665" height="186"/>
+        <image name="upCycleTitle" width="502" height="162"/>
+        <image name="waterUseTitle" width="478" height="169"/>
+        <image name="welcomeTitle" width="665" height="235"/>
     </resources>
 </document>
