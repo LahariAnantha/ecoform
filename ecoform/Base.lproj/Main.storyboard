@@ -594,39 +594,6 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Ea-8K-sg0">
-                                <rect key="frame" x="345" y="259" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <action selector="switchOne:" destination="qTn-6k-3xs" eventType="valueChanged" id="ptV-pC-bcM"/>
-                                </connections>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="S5Y-vv-72m">
-                                <rect key="frame" x="345" y="327" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9NC-Od-LPh">
-                                <rect key="frame" x="345" y="395" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RoK-6B-Z7g">
-                                <rect key="frame" x="345" y="525" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0Tf-oU-mHx">
-                                <rect key="frame" x="345" y="661" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nOt-hb-om6">
-                                <rect key="frame" x="345" y="593" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌸" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHr-uW-EDQ">
                                 <rect key="frame" x="329" y="791" width="65" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -787,26 +754,6 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="njK-1V-9BV">
-                                <rect key="frame" x="345" y="259" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="s39-jr-gSm">
-                                <rect key="frame" x="345" y="327" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ofw-68-sKO">
-                                <rect key="frame" x="345" y="395" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xGO-FR-Acu">
-                                <rect key="frame" x="345" y="661" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🐟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCl-Ta-edh">
                                 <rect key="frame" x="214" y="790" width="65" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -835,11 +782,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vWo-Fl-sGA">
-                                <rect key="frame" x="345" y="559" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="💫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Hy-jm-wwH">
                                 <rect key="frame" x="302" y="790" width="65" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -847,11 +789,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bp-UM-Fmh">
+                                <rect key="frame" x="349" y="256" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.66666666666666663" alpha="0.5966214817880795" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                                <connections>
+                                    <action selector="firstBox:" destination="8ne-39-DWh" eventType="touchUpInside" id="tSf-ZW-wuX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hgc-Bc-pJ6"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="bH5-bN-ueV"/>
+                    <connections>
+                        <outlet property="buttonColor" destination="5bp-UM-Fmh" id="icF-Kx-rOD"/>
+                        <outlet property="firstEmoji" destination="ve8-AV-fIe" id="9LP-og-JiY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpV-AW-woU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -950,11 +907,6 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="h9f-4D-JtO">
-                                <rect key="frame" x="345" y="285" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌬" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6H3-AV-9ak">
                                 <rect key="frame" x="257" y="790" width="65" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -976,16 +928,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ObA-bd-7Ew">
-                                <rect key="frame" x="345" y="387" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rwj-fz-H0r">
-                                <rect key="frame" x="345" y="535" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvh-4w-yni">
                                 <rect key="frame" x="20" y="600" width="307" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -993,11 +935,6 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lIN-op-Xzj">
-                                <rect key="frame" x="345" y="626" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌙" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybT-nq-f5Q">
                                 <rect key="frame" x="320" y="790" width="65" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1005,6 +942,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJt-Ks-1vZ">
+                                <rect key="frame" x="359" y="283" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y8O-VG-bAn"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1337,31 +1280,6 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gge-Rp-g87">
-                                <rect key="frame" x="347" y="258" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="W2b-GQ-ixX">
-                                <rect key="frame" x="347" y="326" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ld7-Xw-khz">
-                                <rect key="frame" x="347" y="394" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hqN-ui-Q5l">
-                                <rect key="frame" x="347" y="524" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HvF-c0-Z6R">
-                                <rect key="frame" x="347" y="675" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHn-hd-AG5">
                                 <rect key="frame" x="329" y="790" width="65" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1404,11 +1322,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Dqp-N9-03w">
-                                <rect key="frame" x="347" y="599" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tff-SI-BoG"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1526,26 +1439,6 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="js3-ej-Vgs">
-                                <rect key="frame" x="345" y="278" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EvM-aH-0eQ">
-                                <rect key="frame" x="345" y="524" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lTm-d0-wKq">
-                                <rect key="frame" x="345" y="660" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WwO-fF-beT">
-                                <rect key="frame" x="345" y="592" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YyX-oW-eyx">
                                 <rect key="frame" x="220" y="790" width="65" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1574,11 +1467,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ME3-0s-i9c">
-                                <rect key="frame" x="345" y="380" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🏞" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6S3-L6-5nW">
                                 <rect key="frame" x="302" y="790" width="65" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1633,31 +1521,6 @@
                                 <rect key="frame" x="0.0" y="796" width="109" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uiT-td-78p">
-                                <rect key="frame" x="347" y="258" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3OR-9l-gZz">
-                                <rect key="frame" x="347" y="326" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hXb-jg-wD7">
-                                <rect key="frame" x="347" y="394" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wkq-eX-sAZ">
-                                <rect key="frame" x="347" y="524" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fEX-ra-Z2I">
-                                <rect key="frame" x="347" y="592" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8E-Si-Thv">
                                 <rect key="frame" x="177" y="140" width="60" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1777,11 +1640,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lgI-Ld-oqJ">
-                                <rect key="frame" x="347" y="671" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="va9-XF-b0f"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1866,7 +1724,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OBO-dt-muc"/>
+        <segue reference="2QA-Fy-WBr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Fredrick" width="2231" height="1778"/>

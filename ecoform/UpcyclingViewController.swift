@@ -9,21 +9,29 @@ import UIKit
 
 class UpcyclingViewController: UIViewController {
 
+    
+    @IBOutlet weak var firstEmoji: UILabel!
+    
+    @IBOutlet weak var buttonColor: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        firstEmoji.isHidden = true
+      
         // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func firstBox(_ sender: UIButton) {
+        if firstEmoji.isHidden == true {
+            firstEmoji.isHidden = false
+            buttonColor.tintColor = UIColor.blue
+    } else {
+            firstEmoji.isHidden = true
+        buttonColor.tintColor = UIColor.brown
+        }
     }
-    */
+    
 
+    
 }
