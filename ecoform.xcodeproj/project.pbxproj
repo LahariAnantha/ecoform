@@ -17,6 +17,20 @@
 		1088C06028874D2B00AADC03 /* ecoformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1088C05F28874D2B00AADC03 /* ecoformTests.swift */; };
 		1088C06A28874D2B00AADC03 /* ecoformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1088C06928874D2B00AADC03 /* ecoformUITests.swift */; };
 		1088C06C28874D2B00AADC03 /* ecoformUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1088C06B28874D2B00AADC03 /* ecoformUITestsLaunchTests.swift */; };
+		C61BC0BB2889A55F00C3702C /* NewYorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0BA2889A55F00C3702C /* NewYorkViewController.swift */; };
+		C61BC0BD2889A57100C3702C /* LosAngelesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0BC2889A57100C3702C /* LosAngelesViewController.swift */; };
+		C61BC0BF2889A57A00C3702C /* ChicagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0BE2889A57A00C3702C /* ChicagoViewController.swift */; };
+		C61BC0C12889A5AA00C3702C /* NearYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0C02889A5AA00C3702C /* NearYouViewController.swift */; };
+		C61BC0C32889A5E300C3702C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0C22889A5E300C3702C /* AboutUsViewController.swift */; };
+		C61BC0C52889A5F200C3702C /* OurRecsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0C42889A5F200C3702C /* OurRecsViewController.swift */; };
+		C61BC0C72889A60300C3702C /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0C62889A60300C3702C /* ResourcesViewController.swift */; };
+		C61BC0C92889A61C00C3702C /* ToDoHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0C82889A61C00C3702C /* ToDoHomeViewController.swift */; };
+		C61BC0CB2889A62B00C3702C /* FashionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0CA2889A62B00C3702C /* FashionViewController.swift */; };
+		C61BC0CD2889A63D00C3702C /* UpcyclingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0CC2889A63D00C3702C /* UpcyclingViewController.swift */; };
+		C61BC0CF2889A65000C3702C /* TransportationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0CE2889A65000C3702C /* TransportationViewController.swift */; };
+		C61BC0D12889A65F00C3702C /* CompostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0D02889A65F00C3702C /* CompostingViewController.swift */; };
+		C61BC0D32889A67600C3702C /* PlantBasedEatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0D22889A67600C3702C /* PlantBasedEatingViewController.swift */; };
+		C61BC0D52889A68600C3702C /* WaterUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61BC0D42889A68600C3702C /* WaterUseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,20 @@
 		1088C06528874D2B00AADC03 /* ecoformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecoformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1088C06928874D2B00AADC03 /* ecoformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoformUITests.swift; sourceTree = "<group>"; };
 		1088C06B28874D2B00AADC03 /* ecoformUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoformUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C61BC0BA2889A55F00C3702C /* NewYorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYorkViewController.swift; sourceTree = "<group>"; };
+		C61BC0BC2889A57100C3702C /* LosAngelesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosAngelesViewController.swift; sourceTree = "<group>"; };
+		C61BC0BE2889A57A00C3702C /* ChicagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoViewController.swift; sourceTree = "<group>"; };
+		C61BC0C02889A5AA00C3702C /* NearYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouViewController.swift; sourceTree = "<group>"; };
+		C61BC0C22889A5E300C3702C /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		C61BC0C42889A5F200C3702C /* OurRecsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurRecsViewController.swift; sourceTree = "<group>"; };
+		C61BC0C62889A60300C3702C /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		C61BC0C82889A61C00C3702C /* ToDoHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoHomeViewController.swift; sourceTree = "<group>"; };
+		C61BC0CA2889A62B00C3702C /* FashionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionViewController.swift; sourceTree = "<group>"; };
+		C61BC0CC2889A63D00C3702C /* UpcyclingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcyclingViewController.swift; sourceTree = "<group>"; };
+		C61BC0CE2889A65000C3702C /* TransportationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationViewController.swift; sourceTree = "<group>"; };
+		C61BC0D02889A65F00C3702C /* CompostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostingViewController.swift; sourceTree = "<group>"; };
+		C61BC0D22889A67600C3702C /* PlantBasedEatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantBasedEatingViewController.swift; sourceTree = "<group>"; };
+		C61BC0D42889A68600C3702C /* WaterUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterUseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +133,20 @@
 				1088C04728874D2600AADC03 /* SceneDelegate.swift */,
 				1088C04928874D2600AADC03 /* ViewController.swift */,
 				1088C04B28874D2600AADC03 /* Main.storyboard */,
+				C61BC0C82889A61C00C3702C /* ToDoHomeViewController.swift */,
+				C61BC0CA2889A62B00C3702C /* FashionViewController.swift */,
+				C61BC0CE2889A65000C3702C /* TransportationViewController.swift */,
+				C61BC0D42889A68600C3702C /* WaterUseViewController.swift */,
+				C61BC0D02889A65F00C3702C /* CompostingViewController.swift */,
+				C61BC0D22889A67600C3702C /* PlantBasedEatingViewController.swift */,
+				C61BC0CC2889A63D00C3702C /* UpcyclingViewController.swift */,
+				C61BC0C62889A60300C3702C /* ResourcesViewController.swift */,
+				C61BC0C42889A5F200C3702C /* OurRecsViewController.swift */,
+				C61BC0C22889A5E300C3702C /* AboutUsViewController.swift */,
+				C61BC0C02889A5AA00C3702C /* NearYouViewController.swift */,
+				C61BC0BA2889A55F00C3702C /* NewYorkViewController.swift */,
+				C61BC0BC2889A57100C3702C /* LosAngelesViewController.swift */,
+				C61BC0BE2889A57A00C3702C /* ChicagoViewController.swift */,
 				1088C05128874D2B00AADC03 /* Assets.xcassets */,
 				1088C05328874D2B00AADC03 /* LaunchScreen.storyboard */,
 				1088C05628874D2B00AADC03 /* Info.plist */,
@@ -261,10 +303,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61BC0C72889A60300C3702C /* ResourcesViewController.swift in Sources */,
+				C61BC0D32889A67600C3702C /* PlantBasedEatingViewController.swift in Sources */,
+				C61BC0C12889A5AA00C3702C /* NearYouViewController.swift in Sources */,
+				C61BC0C32889A5E300C3702C /* AboutUsViewController.swift in Sources */,
+				C61BC0CF2889A65000C3702C /* TransportationViewController.swift in Sources */,
+				C61BC0CD2889A63D00C3702C /* UpcyclingViewController.swift in Sources */,
 				1088C04A28874D2600AADC03 /* ViewController.swift in Sources */,
+				C61BC0BB2889A55F00C3702C /* NewYorkViewController.swift in Sources */,
+				C61BC0C92889A61C00C3702C /* ToDoHomeViewController.swift in Sources */,
+				C61BC0CB2889A62B00C3702C /* FashionViewController.swift in Sources */,
+				C61BC0D52889A68600C3702C /* WaterUseViewController.swift in Sources */,
+				C61BC0C52889A5F200C3702C /* OurRecsViewController.swift in Sources */,
 				1088C04628874D2600AADC03 /* AppDelegate.swift in Sources */,
+				C61BC0D12889A65F00C3702C /* CompostingViewController.swift in Sources */,
+				C61BC0BD2889A57100C3702C /* LosAngelesViewController.swift in Sources */,
 				1088C04828874D2600AADC03 /* SceneDelegate.swift in Sources */,
 				1088C05028874D2600AADC03 /* ecoform.xcdatamodeld in Sources */,
+				C61BC0BF2889A57A00C3702C /* ChicagoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
