@@ -9,10 +9,13 @@ import UIKit
 
 class FashionViewController: UIViewController {
 
+    @IBAction func switchOne(_ sender: Any) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+    
     }
     
 

@@ -598,6 +598,9 @@
                                 <rect key="frame" x="345" y="259" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="switchOne:" destination="qTn-6k-3xs" eventType="valueChanged" id="ptV-pC-bcM"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="S5Y-vv-72m">
                                 <rect key="frame" x="345" y="327" width="49" height="31"/>
@@ -1038,15 +1041,77 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="OBO-dt-muc"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thingstoAvoid" translatesAutoresizingMaskIntoConstraints="NO" id="wlT-S1-rBT">
+                                <rect key="frame" x="14" y="361" width="380" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="le9-zU-66z">
+                                <rect key="frame" x="102" y="138" width="205" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dingbats" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="usL-XK-xno"/>
+                                    <action selector="dingBats:" destination="6q0-iu-UA0" eventType="touchUpInside" id="Gh0-vE-gd5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSD-gX-dmE">
+                                <rect key="frame" x="102" y="227" width="205" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ThredUp" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.71764707569999997" green="0.74901962280000001" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="a9R-XH-OYt"/>
+                                    <action selector="dingBats:" destination="6q0-iu-UA0" eventType="touchUpInside" id="Lri-B5-9nm"/>
+                                    <action selector="threup:" destination="6q0-iu-UA0" eventType="touchUpInside" id="Piw-bp-8IK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74B-Rt-MJ4">
+                                <rect key="frame" x="102" y="312" width="205" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Too Good to Go" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="B91-HV-mRD"/>
+                                    <action selector="dingBats:" destination="6q0-iu-UA0" eventType="touchUpInside" id="CL4-cM-Ixt"/>
+                                    <action selector="tooGood:" destination="6q0-iu-UA0" eventType="touchUpInside" id="hu0-CO-8F6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LPE-ZY-xs6"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="vZ4-M3-JTF"/>
+                    <connections>
+                        <outlet property="dingBats" destination="le9-zU-66z" id="UUf-71-c0s"/>
+                        <outlet property="threup" destination="VSD-gX-dmE" id="Pcq-hE-f2R"/>
+                        <outlet property="tooGood" destination="74B-Rt-MJ4" id="zJ7-Pk-hO3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NpK-Xj-Q8O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-658" y="652"/>
+            <point key="canvasLocation" x="-659.4202898550725" y="651.5625"/>
         </scene>
         <!--Resources View Controller-->
         <scene sceneID="lK7-a7-Owg">
@@ -1074,15 +1139,89 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="HaH-WE-qoH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPL-0o-8PY">
+                                <rect key="frame" x="105" y="205" width="205" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="EPA" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="axC-9Y-uFe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puT-yn-DMp">
+                                <rect key="frame" x="100" y="441" width="216" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sustainability Tips #1" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="6CK-eq-ZPI"/>
+                                    <action selector="susTipsOne:" destination="HzG-XW-Ita" eventType="touchUpInside" id="B8c-bo-pto"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TR-Ng-Aq6">
+                                <rect key="frame" x="101" y="320" width="215" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Composting Methods" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.71764707569999997" green="0.74901962280000001" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="ULt-uw-8VA"/>
+                                    <action selector="compostButton:" destination="HzG-XW-Ita" eventType="touchUpInside" id="kzj-sN-F0E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ium-OM-zHG">
+                                <rect key="frame" x="100" y="554" width="215" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sustainability Tips #2" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.71764707569999997" green="0.74901962280000001" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="3u0-oo-WKe"/>
+                                    <action selector="compostButton:" destination="HzG-XW-Ita" eventType="touchUpInside" id="FtT-kb-DrB"/>
+                                    <action selector="susTipsTwo:" destination="HzG-XW-Ita" eventType="touchUpInside" id="hRh-0W-Mq3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="L28-94-zWA"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="2Sn-6c-mOm"/>
+                    <connections>
+                        <outlet property="EPA" destination="bPL-0o-8PY" id="36b-9L-ItU"/>
+                        <outlet property="compostButton" destination="5TR-Ng-Aq6" id="vOV-Ie-se8"/>
+                        <outlet property="susTipsOne" destination="puT-yn-DMp" id="gfM-cF-Rr7"/>
+                        <outlet property="susTipsTwo" destination="Ium-OM-zHG" id="MqQ-PR-jc3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qn5-yn-VDj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="239" y="652"/>
+            <point key="canvasLocation" x="237.68115942028987" y="651.5625"/>
         </scene>
         <!--Plant Based Eating View Controller-->
         <scene sceneID="yO3-L8-Onm">
@@ -1514,11 +1653,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lgI-Ld-oqJ">
-                                <rect key="frame" x="347" y="660" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
-                            </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fEX-ra-Z2I">
                                 <rect key="frame" x="347" y="592" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1594,8 +1728,8 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9X-tI-dCK">
-                                <rect key="frame" x="22" y="645" width="323" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Replace your showerheads and toliets with more water efficient ones" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9X-tI-dCK">
+                                <rect key="frame" x="20" y="638" width="257" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1643,6 +1777,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lgI-Ld-oqJ">
+                                <rect key="frame" x="347" y="671" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="va9-XF-b0f"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1727,7 +1866,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ns4-j2-Ftg"/>
+        <segue reference="OBO-dt-muc"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Fredrick" width="2231" height="1778"/>
@@ -1747,6 +1886,7 @@
         <image name="plantEatTitle" width="515" height="125"/>
         <image name="resources" width="747" height="265"/>
         <image name="resourcesTitle" width="1181" height="498"/>
+        <image name="thingstoAvoid" width="2123" height="758"/>
         <image name="transportationTitle" width="665" height="186"/>
         <image name="upCycleTitle" width="502" height="162"/>
         <image name="waterUseTitle" width="478" height="169"/>
