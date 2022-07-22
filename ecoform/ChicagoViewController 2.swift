@@ -1,5 +1,5 @@
 //
-//  NearYouViewController.swift
+//  ChicagoViewController.swift
 //  ecoform
 //
 //  Created by Calista Cruikshank on 7/21/22.
@@ -7,21 +7,15 @@
 
 import UIKit
 
-class NearYouViewController: UIViewController {
+class ChicagoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       
+        // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var addCity: UIButton!
-    
-    @IBAction func addCity(_ sender: Any) {
-        let url = URL (string: "https://forms.gle/3C6JkFYQMaGJgE4Y8")!
-            UIApplication.shared.open(url)
 
-    }
     /*
     // MARK: - Navigation
 

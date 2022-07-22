@@ -15,7 +15,12 @@ class LosAngelesViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var LAfarmer: UIButton!
+    @IBAction func LAfarmer(_ sender: Any) {
+        let url = URL (string: "https://farmersmarketla.com/")!
+            UIApplication.shared.open(url)
+    }
+    
     /*
     // MARK: - Navigation
 

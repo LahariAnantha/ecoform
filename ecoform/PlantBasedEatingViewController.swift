@@ -110,7 +110,8 @@ class PlantBasedEatingViewController: UIViewController {
 
    
     @IBAction func fifthBox(_ sender: UIButton) {
-    if fifthEmoji.isHidden == false {
+    if fifthEmoji.isHidden == true {
+        fifthEmoji.isHidden = false
             buttonColorFive.tintColor = UIColor(named: "clickedColor")
     } else {
             fifthEmoji.isHidden = true
@@ -119,7 +120,7 @@ class PlantBasedEatingViewController: UIViewController {
     }
 
 
-    @IBAction func sixthBox(_ sender: Any) {
+    @IBAction func sixthBox(_ sender: UIButton) {
     if sixthEmoji.isHidden == true {
             sixthEmoji.isHidden = false
             buttonColorSix.tintColor = UIColor(named: "clickedColor")

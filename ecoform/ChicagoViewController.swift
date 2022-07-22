@@ -15,7 +15,12 @@ class ChicagoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var chicagoProduce: UIButton!
+    @IBAction func chicagoProduce(_ sender: Any) {
+        let url = URL (string: "https://www.timeout.com/chicago/news/these-11-nearby-farms-are-delivering-fresh-produce-straight-to-chicagoans-doors-042420")!
+            UIApplication.shared.open(url)
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -15,7 +15,12 @@ class NewYorkViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var newYorkProduce: UIButton!
+    @IBAction func newYorkProduce(_ sender: Any) {
+        let url = URL (string: "https://www.grownyc.org/greenmarket/whatsavailable")!
+            UIApplication.shared.open(url)
+    }
+    
     /*
     // MARK: - Navigation
 
