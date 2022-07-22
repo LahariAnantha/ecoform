@@ -39,6 +39,7 @@ class TransportationViewController: UIViewController {
         buttonColorTwo.tintColor = UIColor(named: "initialColor")
         buttonColorThree.tintColor = UIColor(named: "initialColor")
         buttonColorFour.tintColor = UIColor(named: "initialColor")
+        transportInfo.isHidden = true
     
         
         // Do any additional setup after loading the view.
@@ -90,6 +91,16 @@ class TransportationViewController: UIViewController {
             fourthEmoji.isHidden = true
         buttonColorFour.tintColor = UIColor(named: "initialColor")
         }
+    }
+    
+    @IBOutlet weak var transportInfo: UILabel!
+    
+    @IBAction func infoButton(_ sender: Any) {
+        if transportInfo.isHidden == true {
+            transportInfo.isHidden = false
+                } else{
+                    transportInfo.isHidden = true
+                }
     }
     
     

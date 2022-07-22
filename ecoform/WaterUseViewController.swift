@@ -53,6 +53,7 @@ class WaterUseViewController: UIViewController {
         buttonColorFour.tintColor = UIColor(named: "initialColor")
         buttonColorFive.tintColor = UIColor(named: "initialColor")
         buttonColorSix.tintColor = UIColor(named: "initialColor")
+        waterInfo.isHidden = true
         
         // Do any additional setup after loading the view.
     }
@@ -126,6 +127,16 @@ class WaterUseViewController: UIViewController {
             sixthEmoji.isHidden = true
         buttonColorSix.tintColor = UIColor(named: "initialColor")
         }
+    }
+    
+    @IBOutlet weak var waterInfo: UILabel!
+    
+    @IBAction func infoButton(_ sender: Any) {
+        if waterInfo.isHidden == true {
+                    waterInfo.isHidden = false
+                } else{
+                    waterInfo.isHidden = true
+                }
     }
     
 }

@@ -47,6 +47,7 @@ class CompostingViewController: UIViewController {
         buttonColorThree.tintColor = UIColor(named: "initialColor")
         buttonColorFour.tintColor = UIColor(named: "initialColor")
         buttonColorFive.tintColor = UIColor(named: "initialColor")
+        compostingInfo.isHidden = true
 
         
         // Do any additional setup after loading the view.
@@ -114,6 +115,17 @@ class CompostingViewController: UIViewController {
             fifthEmoji.isHidden = true
         buttonColorFive.tintColor = UIColor(named: "initialColor")
         }
+    }
+    
+    @IBOutlet weak var compostingInfo: UILabel!
+    
+    
+    @IBAction func infoButton(_ sender: Any) {
+        if compostingInfo.isHidden == true {
+                    compostingInfo.isHidden = false
+                } else{
+                    compostingInfo.isHidden = true
+                }
     }
     
 }

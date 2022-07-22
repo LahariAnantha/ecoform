@@ -53,6 +53,7 @@ class PlantBasedEatingViewController: UIViewController {
         buttonColorFour.tintColor = UIColor(named: "initialColor")
         buttonColorFive.tintColor = UIColor(named: "initialColor")
         buttonColorSix.tintColor = UIColor(named: "initialColor")
+        plantInfo.isHidden = true
         
         // Do any additional setup after loading the view.
     }
@@ -128,6 +129,16 @@ class PlantBasedEatingViewController: UIViewController {
             sixthEmoji.isHidden = true
         buttonColorSix.tintColor = UIColor(named: "initialColor")
         }
+    }
+    
+    @IBOutlet weak var plantInfo: UILabel!
+    
+    @IBAction func infoButton(_ sender: Any) {
+        if plantInfo.isHidden == true {
+                    plantInfo.isHidden = false
+                } else{
+                    plantInfo.isHidden = true
+                }
     }
     
 }

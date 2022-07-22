@@ -47,7 +47,7 @@ class UpcyclingViewController: UIViewController {
         buttonColorThree.tintColor = UIColor(named: "initialColor")
         buttonColorFour.tintColor = UIColor(named: "initialColor")
         buttonColorFive.tintColor = UIColor(named: "initialColor")
-        
+        upcyclingInfo.isHidden = true
         // Do any additional setup after loading the view.
     }
     
@@ -113,6 +113,17 @@ class UpcyclingViewController: UIViewController {
         buttonColorFive.tintColor = UIColor(named: "initialColor")
         }
     }
+    
+    @IBOutlet weak var upcyclingInfo: UILabel!
+    
+    @IBAction func infoButton(_ sender: Any) {
+        if upcyclingInfo.isHidden == true {
+            upcyclingInfo.isHidden = false
+        } else{
+            upcyclingInfo.isHidden = true
+        }
+    }
+    
 
     
 }

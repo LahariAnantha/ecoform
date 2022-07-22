@@ -32,6 +32,14 @@ class OurRecsViewController: UIViewController {
             UIApplication.shared.open(url)
 
     }
+    @IBOutlet weak var goodOnYou: UIButton!
+    
+    
+    @IBAction func goodOnYou(_ sender: Any) {
+        let url = URL (string: "https://goodonyou.eco/")!
+            UIApplication.shared.open(url)
+
+    }
     
     
     override func viewDidLoad() {

@@ -95,6 +95,13 @@
                                     <segue destination="HzG-XW-Ita" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="3R9-f1-Drv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pick a petal to begin!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9z-g7-wdR">
+                                <rect key="frame" x="127" y="284" width="161" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
+                                <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.95294117647058818" green="0.89803921568627454" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
@@ -140,8 +147,8 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="ekP-bH-Gka"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ecoform aims to..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUd-Kt-K2V">
-                                <rect key="frame" x="45" y="186" width="325" height="105"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ecoform aims to..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUd-Kt-K2V">
+                                <rect key="frame" x="45" y="186" width="330" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -185,15 +192,15 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FdP-ee-e5C">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lahariFace" translatesAutoresizingMaskIntoConstraints="NO" id="FdP-ee-e5C">
                                 <rect key="frame" x="293" y="509" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XZ3-b8-BBs">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calistaFace" translatesAutoresizingMaskIntoConstraints="NO" id="XZ3-b8-BBs">
                                 <rect key="frame" x="293" y="647" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JennyFace" translatesAutoresizingMaskIntoConstraints="NO" id="v51-Na-wkY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jennyFace-1" translatesAutoresizingMaskIntoConstraints="NO" id="v51-Na-wkY">
                                 <rect key="frame" x="293" y="371" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -283,6 +290,19 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8As-V4-CHH">
+                                <rect key="frame" x="0.0" y="85" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
+                                <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="←">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="vVd-ub-W7i" kind="presentation" modalPresentationStyle="fullScreen" id="kZJ-c7-Dz0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="t5o-ep-rpQ"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -600,6 +620,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="info">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="infoButton:" destination="qTn-6k-3xs" eventType="touchUpInside" id="spt-99-QuZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daily To-Dos:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8y-92-Rkh">
                                 <rect key="frame" x="22" y="192" width="137" height="54"/>
@@ -652,7 +675,7 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9FL-Rn-ehQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Try a capsule wardrobe for two weeks" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9FL-Rn-ehQ">
                                 <rect key="frame" x="22" y="646" width="307" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
@@ -773,6 +796,29 @@
                                     <action selector="firstBox:" destination="qTn-6k-3xs" eventType="touchUpInside" id="Gvp-Ay-ZpQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gG9-AO-hIQ">
+                                <rect key="frame" x="20" y="75" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
+                                <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="←">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="C8I-pZ-qQB" kind="presentation" modalPresentationStyle="fullScreen" id="4mm-AP-ZsD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3l8-wo-w7K">
+                                <rect key="frame" x="8" y="181" width="397" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Cheap clothing produced rapidly by mass-market retailers in response to the latest trends, more commonly known as “fast fashion,” has adverse environmental effects. In America, 85% of the clothing Americans consume is sent to the landfill as solid waste. That’s 80 pounds of clothing and textiles per American per year. When buying a new clothing item, try to reflect on if you can see yourself wearing an item in the future. A year from now? 5 years from now? Is the clothing made well enough to last as long as you want it to? By taking a more critical stance when purchasing clothing, you are helping to slow down trend and fashion cycles, and further, slow down the waste at which clothing waste is produced!
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uGS-cT-kI7"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -785,6 +831,7 @@
                         <outlet property="buttonColorSix" destination="sk1-Cw-w1X" id="omm-6u-ATB"/>
                         <outlet property="buttonColorThree" destination="xbC-cZ-BJf" id="kKX-wu-CJx"/>
                         <outlet property="buttonColorTwo" destination="9ex-Kf-oLQ" id="PKc-ng-JER"/>
+                        <outlet property="fashionInfo" destination="3l8-wo-w7K" id="4NL-p3-Nr3"/>
                         <outlet property="fifthEmoji" destination="r6J-6Y-VOK" id="iFN-s6-v4p"/>
                         <outlet property="firstEmoji" destination="U9I-e7-yLt" id="AlL-7f-myc"/>
                         <outlet property="fourthEmoji" destination="bOY-yh-MiC" id="AXc-22-VrR"/>
@@ -827,7 +874,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="upCycleTitle" translatesAutoresizingMaskIntoConstraints="NO" id="ScB-j2-MEg">
-                                <rect key="frame" x="61" y="18" width="292" height="128"/>
+                                <rect key="frame" x="87" y="18" width="292" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fredrick" translatesAutoresizingMaskIntoConstraints="NO" id="yOU-YY-MFY">
@@ -852,6 +899,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="info">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="infoButton:" destination="8ne-39-DWh" eventType="touchUpInside" id="u8x-fh-WUA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daily To-Dos:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqn-Ym-yby">
                                 <rect key="frame" x="22" y="192" width="137" height="54"/>
@@ -883,7 +933,7 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scj-NV-1Rz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find one object in your house you want to upcycle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scj-NV-1Rz">
                                 <rect key="frame" x="20" y="380" width="309" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
@@ -898,7 +948,7 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eB-xx-iiz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clean out your garage for items you want to upcycle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eB-xx-iiz">
                                 <rect key="frame" x="22" y="646" width="307" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
@@ -995,6 +1045,29 @@
                                     <action selector="firstBox:" destination="8ne-39-DWh" eventType="touchUpInside" id="fPn-rK-EIA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iij-LS-VRp">
+                                <rect key="frame" x="20" y="72" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
+                                <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="←">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="C8I-pZ-qQB" kind="presentation" modalPresentationStyle="fullScreen" id="k2v-uT-wZ3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNu-Cj-Swq">
+                                <rect key="frame" x="7" y="186" width="397" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">You can upcycle a variety of items to give them new life and even additional use, while saving money in the process. These items include clothing, furniture, mechanics, and more! Think of it like upgrading car parts! You’re saving a beloved car, improving it (in most cases), and keeping the viable car parts in use! By upcycling, you’re also reducing the toll on natural resources, and if you are upcycling a product from a secondhand store, you are supporting local businesses! 
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hgc-Bc-pJ6"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1011,6 +1084,7 @@
                         <outlet property="fourthEmoji" destination="zCl-Ta-edh" id="emS-vR-apC"/>
                         <outlet property="secondEmoji" destination="Pq8-gZ-ZpE" id="WER-GO-yVh"/>
                         <outlet property="thirdEmoji" destination="yo8-Hc-kBy" id="PF8-Jg-oxY"/>
+                        <outlet property="upcyclingInfo" destination="TNu-Cj-Swq" id="UPx-Lv-Cjj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpV-AW-woU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1047,7 +1121,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="transportationTitle" translatesAutoresizingMaskIntoConstraints="NO" id="uYa-JJ-AJp">
-                                <rect key="frame" x="44" y="23" width="327" height="128"/>
+                                <rect key="frame" x="84" y="15" width="301" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fredrick" translatesAutoresizingMaskIntoConstraints="NO" id="QF4-uv-AkX">
@@ -1072,6 +1146,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="info">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="infoButton:" destination="sov-oH-1W6" eventType="touchUpInside" id="iDm-CO-lWs"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daily To-Dos:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41c-6a-OQx">
                                 <rect key="frame" x="22" y="191" width="137" height="54"/>
@@ -1096,7 +1173,7 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOS-RB-7n8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bike/walk with a friend today! " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOS-RB-7n8">
                                 <rect key="frame" x="20" y="365" width="309" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
@@ -1131,8 +1208,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvh-4w-yni">
-                                <rect key="frame" x="20" y="600" width="307" height="83"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Memorize your city's public transport map" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvh-4w-yni">
+                                <rect key="frame" x="20" y="600" width="318" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1193,6 +1270,28 @@
                                     <action selector="firstBox:" destination="sov-oH-1W6" eventType="touchUpInside" id="m74-Yw-64H"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIa-fd-3yQ">
+                                <rect key="frame" x="20" y="67" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
+                                <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="←">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="C8I-pZ-qQB" kind="presentation" modalPresentationStyle="fullScreen" id="8Dz-5X-1ZB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NxS-jS-YQg">
+                                <rect key="frame" x="9" y="178" width="397" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">According to the Environmental Protection Agency, greenhouse gas emissions from transportation account for about 27% of total U.S. greenhouse gas emissions, making it the largest contributor of U.S. greenhouse gas emissions. Alongside this, the emissions produced by transportation have been rapidly increasing over the years. By taking alternative means of transportation, you are helping to reduce these emissions!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y8O-VG-bAn"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1207,6 +1306,7 @@
                         <outlet property="fourthEmoji" destination="ybT-nq-f5Q" id="rVt-pI-CSQ"/>
                         <outlet property="secondEmoji" destination="bGm-j5-G7J" id="8hf-Bt-V2i"/>
                         <outlet property="thirdEmoji" destination="6H3-AV-9ak" id="ZIy-6a-hAg"/>
+                        <outlet property="transportInfo" destination="NxS-jS-YQg" id="hrn-TW-KOQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l6A-bo-IsQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1239,10 +1339,6 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="OBO-dt-muc"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thingstoAvoid" translatesAutoresizingMaskIntoConstraints="NO" id="wlT-S1-rBT">
-                                <rect key="frame" x="14" y="361" width="380" height="174"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="le9-zU-66z">
                                 <rect key="frame" x="102" y="138" width="205" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1256,7 +1352,6 @@
                                     <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="usL-XK-xno"/>
                                     <action selector="dingBats:" destination="6q0-iu-UA0" eventType="touchUpInside" id="Gh0-vE-gd5"/>
                                 </connections>
                             </button>
@@ -1273,8 +1368,6 @@
                                     <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="a9R-XH-OYt"/>
-                                    <action selector="dingBats:" destination="6q0-iu-UA0" eventType="touchUpInside" id="Lri-B5-9nm"/>
                                     <action selector="threup:" destination="6q0-iu-UA0" eventType="touchUpInside" id="Piw-bp-8IK"/>
                                 </connections>
                             </button>
@@ -1291,11 +1384,41 @@
                                     <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="B91-HV-mRD"/>
-                                    <action selector="dingBats:" destination="6q0-iu-UA0" eventType="touchUpInside" id="CL4-cM-Ixt"/>
                                     <action selector="tooGood:" destination="6q0-iu-UA0" eventType="touchUpInside" id="hu0-CO-8F6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLe-k5-j7I">
+                                <rect key="frame" x="102" y="399" width="205" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Good on You" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.71764707569999997" green="0.74901962280000001" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="goodOnYou:" destination="6q0-iu-UA0" eventType="touchUpInside" id="DkE-Cm-hbc"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thingstoAvoid" translatesAutoresizingMaskIntoConstraints="NO" id="wlT-S1-rBT">
+                                <rect key="frame" x="20" y="438" width="380" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjN-Bd-XZM">
+                                <rect key="frame" x="35" y="566" width="317" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Fast fashion brands such as Shein, Urban Outfitters, H&amp;M.
+
+Single-use plastics (we understand it is sometimes unavoidable, but try when you can!)
+
+For the most part, any mega-corporations that produce a product for mass consumption</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LPE-ZY-xs6"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1303,6 +1426,7 @@
                     <navigationItem key="navigationItem" id="vZ4-M3-JTF"/>
                     <connections>
                         <outlet property="dingBats" destination="le9-zU-66z" id="UUf-71-c0s"/>
+                        <outlet property="goodOnYou" destination="cLe-k5-j7I" id="RCb-P1-kSl"/>
                         <outlet property="threup" destination="VSD-gX-dmE" id="Pcq-hE-f2R"/>
                         <outlet property="tooGood" destination="74B-Rt-MJ4" id="zJ7-Pk-hO3"/>
                     </connections>
@@ -1366,7 +1490,6 @@
                                     <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="6CK-eq-ZPI"/>
                                     <action selector="susTipsOne:" destination="HzG-XW-Ita" eventType="touchUpInside" id="B8c-bo-pto"/>
                                 </connections>
                             </button>
@@ -1383,7 +1506,6 @@
                                     <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="ULt-uw-8VA"/>
                                     <action selector="compostButton:" destination="HzG-XW-Ita" eventType="touchUpInside" id="kzj-sN-F0E"/>
                                 </connections>
                             </button>
@@ -1400,8 +1522,6 @@
                                     <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="EPA:" destination="HzG-XW-Ita" eventType="touchUpInside" id="3u0-oo-WKe"/>
-                                    <action selector="compostButton:" destination="HzG-XW-Ita" eventType="touchUpInside" id="FtT-kb-DrB"/>
                                     <action selector="susTipsTwo:" destination="HzG-XW-Ita" eventType="touchUpInside" id="hRh-0W-Mq3"/>
                                 </connections>
                             </button>
@@ -1451,7 +1571,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plantEatTitle" translatesAutoresizingMaskIntoConstraints="NO" id="KJ6-be-zNf">
-                                <rect key="frame" x="24" y="14" width="372" height="158"/>
+                                <rect key="frame" x="70" y="14" width="326" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fredrick" translatesAutoresizingMaskIntoConstraints="NO" id="CDt-Gy-A6x">
@@ -1466,6 +1586,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="info">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="infoButton:" destination="JqJ-zi-SZi" eventType="touchUpInside" id="8s4-dJ-XDx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hou-rL-06X">
                                 <rect key="frame" x="0.0" y="771" width="109" height="91"/>
@@ -1647,6 +1770,28 @@
                                     <action selector="thirdBox:" destination="JqJ-zi-SZi" eventType="touchUpInside" id="oi0-dF-c9g"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p90-Ct-ILy">
+                                <rect key="frame" x="3" y="83" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
+                                <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="←">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="C8I-pZ-qQB" kind="presentation" modalPresentationStyle="fullScreen" id="bBw-ha-y1w"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3g4-SU-hFb">
+                                <rect key="frame" x="9" y="180" width="398" height="531"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Eating plant based meals rather than meat-based ones is one of the best ways to reduce your environmental impact. The meat and dairy industries are some of the most harmful industries as a result of their environmental impact, poor treatment of animals, and dangerous use of antibiotics (which can lead to antibiotic resistant bacteria). A key player in these industries’ environmental impact is the methane gas caused by cow farts and burps, which acts as an insulator for heat and greenhouse gasses which contributes to global warming. (Who knew that farts were such a big issue?) Thankfully, studies have shown that the amount of methane gas produced by cows can be reduced by incorporating seaweed into their diets!</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tff-SI-BoG"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1662,6 +1807,7 @@
                         <outlet property="fifthEmoji" destination="iFw-VD-6kR" id="rUL-bb-iTh"/>
                         <outlet property="firstEmoji" destination="Nig-oH-xL9" id="fpM-vM-ZU9"/>
                         <outlet property="fourthEmoji" destination="ny4-lx-kbv" id="MX0-cs-6fg"/>
+                        <outlet property="plantInfo" destination="3g4-SU-hFb" id="nSQ-Li-o7W"/>
                         <outlet property="secondEmoji" destination="8LJ-Ne-fB0" id="PpM-fY-jsu"/>
                         <outlet property="sixthEmoji" destination="uHn-hd-AG5" id="dXc-qa-ve4"/>
                         <outlet property="thirdEmoji" destination="b09-yf-c8I" id="RUz-cK-hwL"/>
@@ -1701,7 +1847,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compostingTitle" translatesAutoresizingMaskIntoConstraints="NO" id="39p-sG-zuG">
-                                <rect key="frame" x="59" y="27" width="296" height="128"/>
+                                <rect key="frame" x="92" y="25" width="296" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fredrick" translatesAutoresizingMaskIntoConstraints="NO" id="DPS-E9-Nhg">
@@ -1726,6 +1872,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="info">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="infoButton:" destination="PWv-Uo-jux" eventType="touchUpInside" id="rjj-Kq-NaZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daily To-Dos:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhe-Mh-eoP">
                                 <rect key="frame" x="22" y="191" width="137" height="54"/>
@@ -1771,7 +1920,7 @@
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVc-y3-Nx6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Use a compost pick up service " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVc-y3-Nx6">
                                 <rect key="frame" x="22" y="645" width="307" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
@@ -1873,6 +2022,28 @@
                                     <action selector="fifthBox:" destination="PWv-Uo-jux" eventType="touchUpInside" id="mZZ-am-lVS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MN9-QB-edt">
+                                <rect key="frame" x="25" y="79" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
+                                <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="←">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="C8I-pZ-qQB" kind="presentation" modalPresentationStyle="fullScreen" id="9cA-nb-GSc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pdr-VH-gHD">
+                                <rect key="frame" x="9" y="186" width="397" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">In 2018, the Environmental Protection Agency projected that the average American produced 4.9 pounds of trash a day. This waste usually moves from landfills into oceans and water, polluting natural resources. This is why reducing our waste is key. The optimal way to reduce our waste is by reducing our consumption of products with plastic packaging, and especially supporting businesses with compostable packaging. Even if you are not buying compostable packaging, you can compost your food waste to make some extremely nutritious soil for your garden!</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ywF-fD-Fw2"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1884,6 +2055,7 @@
                         <outlet property="buttonColorOne" destination="2VO-ci-o2j" id="aUw-RW-cBV"/>
                         <outlet property="buttonColorThree" destination="orV-ok-p2N" id="TTN-5R-hjX"/>
                         <outlet property="buttonColorTwo" destination="edf-94-yZy" id="uFM-HV-nX0"/>
+                        <outlet property="compostingInfo" destination="Pdr-VH-gHD" id="Q4Z-TR-Wds"/>
                         <outlet property="fifthEmoji" destination="6S3-L6-5nW" id="SMH-TT-Tuq"/>
                         <outlet property="firstEmoji" destination="Ya0-rm-Tnp" id="9Gm-rY-Aj8"/>
                         <outlet property="fourthEmoji" destination="YyX-oW-eyx" id="uWI-Y4-CHN"/>
@@ -1925,7 +2097,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="waterUseTitle" translatesAutoresizingMaskIntoConstraints="NO" id="qfR-6C-lmm">
-                                <rect key="frame" x="61" y="44" width="292" height="128"/>
+                                <rect key="frame" x="70" y="9" width="292" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fredrick" translatesAutoresizingMaskIntoConstraints="NO" id="qlN-h7-iG4">
@@ -1940,6 +2112,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="info">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="infoButton:" destination="RWS-fg-HRc" eventType="touchUpInside" id="xpR-Ha-b6c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6L-qZ-rdq">
                                 <rect key="frame" x="0.0" y="772" width="109" height="90"/>
@@ -2125,6 +2300,28 @@
                                     <action selector="firstBox:" destination="RWS-fg-HRc" eventType="touchUpInside" id="kYz-5d-nmg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdf-PV-idC">
+                                <rect key="frame" x="25" y="63" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
+                                <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="←">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="C8I-pZ-qQB" kind="presentation" modalPresentationStyle="fullScreen" id="zb3-ps-WtE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqu-xx-Oux">
+                                <rect key="frame" x="20" y="191" width="397" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">According to the Environmental Protection Agency, the average American family uses more than 300 gallons of water per day at home, and 70% of that is indoor use. Overuse of freshwater can lead to lowered groundwater tables, and due to the intensive treatment water must go through, affects the air quality and climate change. Very little freshwater is actually used by individuals; in the US, 45% of water is used for thermoelectric power, and 32% is used for irrigation. However, this shouldn’t discourage you from conserving water; even the smallest changes can make a difference! </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="va9-XF-b0f"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -2143,6 +2340,7 @@
                         <outlet property="secondEmoji" destination="3TU-eP-0aL" id="lEy-Oy-QSz"/>
                         <outlet property="sixthEmoji" destination="ZRl-Od-S9b" id="lgr-5o-1nG"/>
                         <outlet property="thirdEmoji" destination="PbL-US-HAo" id="1FC-6P-5PE"/>
+                        <outlet property="waterInfo" destination="iqu-xx-Oux" id="98o-XF-UYS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EnE-Lm-6PQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2227,6 +2425,19 @@ Climate Week NYC on September 19-25 where you can go to all sorts of events to l
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04l-Nw-6OJ">
+                                <rect key="frame" x="0.0" y="126" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
+                                <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="←">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="vVd-ub-W7i" kind="presentation" modalPresentationStyle="fullScreen" id="bPy-ut-saf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Ab-JK-ibY"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -2316,6 +2527,19 @@ Climate Week NYC on September 19-25 where you can go to all sorts of events to l
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fja-hV-Ifw">
+                                <rect key="frame" x="0.0" y="108" width="59" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.69999999999999996" y="0.0" width="1" height="1"/>
+                                <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="←">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="vVd-ub-W7i" kind="presentation" modalPresentationStyle="fullScreen" id="Z0W-gN-lcu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CS6-Sc-30M"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -2331,18 +2555,22 @@ Climate Week NYC on September 19-25 where you can go to all sorts of events to l
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jqG-ID-ZM4"/>
+        <segue reference="4mm-AP-ZsD"/>
+        <segue reference="bPy-ut-saf"/>
+        <segue reference="ekP-bH-Gka"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Fredrick" width="2231" height="1778"/>
-        <image name="JennyFace" width="2320" height="2320"/>
         <image name="aboutUs" width="591" height="379"/>
         <image name="aboutUsTitle" width="517" height="138"/>
+        <image name="calistaFace" width="541" height="528"/>
         <image name="chicagoTitle" width="1440" height="750"/>
         <image name="compostingTitle" width="531" height="200"/>
         <image name="dailyToDo" width="497" height="464"/>
         <image name="dailyToDoTitle" width="644" height="149"/>
         <image name="fashionTitle" width="405" height="224"/>
+        <image name="jennyFace-1" width="541" height="528"/>
+        <image name="lahariFace" width="541" height="528"/>
         <image name="losAngelesTitle" width="1579" height="559"/>
         <image name="nearYou" width="369" height="375"/>
         <image name="nearYouTitle" width="527" height="154"/>

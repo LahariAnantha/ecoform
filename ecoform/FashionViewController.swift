@@ -53,7 +53,7 @@ class FashionViewController: UIViewController {
         buttonColorFour.tintColor = UIColor(named: "initialColor")
         buttonColorFive.tintColor = UIColor(named: "initialColor")
         buttonColorSix.tintColor = UIColor(named: "initialColor")
-        
+        fashionInfo.isHidden = true
         // Do any additional setup after loading the view.
     }
     
@@ -126,5 +126,18 @@ class FashionViewController: UIViewController {
         buttonColorSix.tintColor = UIColor(named: "initialColor")
         }
     }
+    
+    @IBOutlet weak var fashionInfo: UILabel!
+    
+   
+    @IBAction func infoButton(_ sender: UIButton) {
+        if fashionInfo.isHidden == true {
+            fashionInfo.isHidden = false
+        } else{
+            fashionInfo.isHidden = true
+        }
+    }
+    
+    
     
 }
