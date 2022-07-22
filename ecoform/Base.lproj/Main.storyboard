@@ -95,10 +95,10 @@
                                     <segue destination="HzG-XW-Ita" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="3R9-f1-Drv"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pick a petal to begin!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9z-g7-wdR">
-                                <rect key="frame" x="127" y="284" width="161" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a petal to begin!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9z-g7-wdR">
+                                <rect key="frame" x="114" y="290" width="187" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -127,10 +127,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aboutUsTitle" translatesAutoresizingMaskIntoConstraints="NO" id="WHg-Ag-G3M">
-                                <rect key="frame" x="40" y="44" width="335" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fredrick" translatesAutoresizingMaskIntoConstraints="NO" id="lcn-7d-fFF">
                                 <rect key="frame" x="0.0" y="796" width="109" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -141,16 +137,17 @@
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home">
-                                    <fontDescription key="titleFontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="ekP-bH-Gka"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ecoform aims to..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUd-Kt-K2V">
-                                <rect key="frame" x="45" y="186" width="330" height="105"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUd-Kt-K2V">
+                                <rect key="frame" x="20" y="139" width="375" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <string key="text">Ecoform aims to give people more opportunities to be environmentally conscious, make information about the corporate causes of climate change and sustainable practices more accessible, and ease climate anxiety by reassuring users that they are doing what they can to help the planet.</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -204,6 +201,10 @@
                                 <rect key="frame" x="293" y="371" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aboutUsTitle" translatesAutoresizingMaskIntoConstraints="NO" id="WHg-Ag-G3M">
+                                <rect key="frame" x="40" y="9" width="335" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5VQ-rq-HrU"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -235,7 +236,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="gg8-80-ard"/>
                                 </connections>
@@ -244,41 +247,23 @@
                                 <rect key="frame" x="116" y="183" width="182" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="25"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfd-iC-zGv">
-                                <rect key="frame" x="60" y="224" width="295" height="157"/>
+                                <rect key="frame" x="60" y="224" width="295" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Los Angeles is full of farmer’s markets that are filled with food, clothing, and other items. These farmer’s markets often sell local produce that contains a mixture of many cultures and tastes.  </string>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwa-0a-9lI">
-                                <rect key="frame" x="26" y="373" width="362" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="click here to find one near you!" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.71764707569999997" green="0.74901962280000001" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="LAfarmer:" destination="oTz-c5-pJb" eventType="touchUpInside" id="fg8-AS-ogk"/>
-                                    <action selector="addCity:" destination="vVd-ub-W7i" eventType="touchUpInside" id="H7g-9B-9k0"/>
-                                    <action selector="newYorkProduce:" destination="Xjq-fx-dMS" eventType="touchUpInside" id="h0g-OV-lPi"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Events:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aV-h9-M4n">
                                 <rect key="frame" x="116" y="498" width="182" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="25"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -301,6 +286,24 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="vVd-ub-W7i" kind="presentation" modalPresentationStyle="fullScreen" id="kZJ-c7-Dz0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwa-0a-9lI">
+                                <rect key="frame" x="26" y="398" width="362" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Click here to find one near you!" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.71764707569999997" green="0.74901962280000001" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="LAfarmer:" destination="oTz-c5-pJb" eventType="touchUpInside" id="fg8-AS-ogk"/>
+                                    <action selector="addCity:" destination="vVd-ub-W7i" eventType="touchUpInside" id="H7g-9B-9k0"/>
+                                    <action selector="newYorkProduce:" destination="Xjq-fx-dMS" eventType="touchUpInside" id="h0g-OV-lPi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -334,7 +337,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="27"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Xjq-fx-dMS" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="idB-xE-pZj"/>
@@ -350,7 +353,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="27"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="oTz-c5-pJb" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="vbq-pF-22m"/>
@@ -374,7 +377,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="27"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="RDy-Pi-nVb" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="AU2-2U-30y"/>
@@ -385,13 +388,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.10568980323277986" green="0.36151841493568038" blue="0.17922237620642237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="fOX-Vo-9Rq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVX-FV-xMu">
-                                <rect key="frame" x="36" y="611" width="342" height="66"/>
+                                <rect key="frame" x="36" y="569" width="342" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -400,7 +405,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.71764707569999997" green="0.74901962280000001" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="23"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="addCity:" destination="vVd-ub-W7i" eventType="touchUpInside" id="MW7-I8-VE7"/>
@@ -448,7 +453,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="qTn-6k-3xs" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="0uo-da-9QP"/>
@@ -464,7 +469,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="sov-oH-1W6" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="EY2-5e-Dma"/>
@@ -480,7 +485,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="RWS-fg-HRc" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="eax-0C-BVB"/>
@@ -496,7 +501,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="PWv-Uo-jux" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="O9D-1b-K51"/>
@@ -511,7 +516,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="uoJ-SM-g3c"/>
                                 </connections>
@@ -526,7 +533,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="8ne-39-DWh" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="EuI-SN-kHy"/>
@@ -542,16 +549,16 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.65098039220000004" green="0.70196078429999997" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="JqJ-zi-SZi" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Tzk-0V-1Me"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Try to collect all of the emojis!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A81-03-JYF">
-                                <rect key="frame" x="52" y="710" width="311" height="28"/>
+                                <rect key="frame" x="72" y="710" width="273" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -607,7 +614,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="y4Y-Oi-HUL"/>
                                 </connections>
@@ -628,7 +637,7 @@
                                 <rect key="frame" x="22" y="192" width="137" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -636,7 +645,7 @@
                                 <rect key="frame" x="20" y="448" width="175" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -810,12 +819,11 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3l8-wo-w7K">
-                                <rect key="frame" x="8" y="181" width="397" height="525"/>
+                                <rect key="frame" x="20" y="181" width="374" height="525"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Cheap clothing produced rapidly by mass-market retailers in response to the latest trends, more commonly known as “fast fashion,” has adverse environmental effects. In America, 85% of the clothing Americans consume is sent to the landfill as solid waste. That’s 80 pounds of clothing and textiles per American per year. When buying a new clothing item, try to reflect on if you can see yourself wearing an item in the future. A year from now? 5 years from now? Is the clothing made well enough to last as long as you want it to? By taking a more critical stance when purchasing clothing, you are helping to slow down trend and fashion cycles, and further, slow down the waste at which clothing waste is produced!
-</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <mutableString key="text">Cheap clothing produced rapidly by mass-market retailers in response to the latest trends, more commonly known as “fast fashion,” has adverse environmental effects. In America, 85% of the clothing Americans consume is sent to the landfill as solid waste. That’s 80 pounds of clothing and textiles per American per year. When buying a new clothing item, try to reflect on if you can see yourself wearing an item in the future. A year from now? 5 years from now? Is the clothing made well enough to last as long as you want it to? By taking a more critical stance when purchasing clothing, you are helping to slow down trend and fashion cycles, and further, slow down the waste at which clothing waste is produced!</mutableString>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
                                 <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -855,21 +863,21 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldn-Ml-LKK">
                                 <rect key="frame" x="146" y="116" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="0.0"/>
                                 <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWV-pc-qHE">
                                 <rect key="frame" x="159" y="63" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="0.0"/>
                                 <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7X-0m-1AD">
                                 <rect key="frame" x="159" y="63" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="0.0"/>
                                 <color key="textColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -886,7 +894,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="2QA-Fy-WBr"/>
                                 </connections>
@@ -907,7 +917,7 @@
                                 <rect key="frame" x="22" y="192" width="137" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -915,7 +925,7 @@
                                 <rect key="frame" x="20" y="448" width="175" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1059,12 +1069,12 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNu-Cj-Swq">
-                                <rect key="frame" x="7" y="186" width="397" height="525"/>
+                                <rect key="frame" x="20" y="186" width="374" height="525"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">You can upcycle a variety of items to give them new life and even additional use, while saving money in the process. These items include clothing, furniture, mechanics, and more! Think of it like upgrading car parts! You’re saving a beloved car, improving it (in most cases), and keeping the viable car parts in use! By upcycling, you’re also reducing the toll on natural resources, and if you are upcycling a product from a secondhand store, you are supporting local businesses! 
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="27"/>
                                 <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1133,7 +1143,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="JFM-Rg-4bI"/>
                                 </connections>
@@ -1154,7 +1166,7 @@
                                 <rect key="frame" x="22" y="191" width="137" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1162,7 +1174,7 @@
                                 <rect key="frame" x="20" y="447" width="175" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1284,11 +1296,11 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NxS-jS-YQg">
-                                <rect key="frame" x="9" y="178" width="397" height="525"/>
+                                <rect key="frame" x="20" y="191" width="374" height="512"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">According to the Environmental Protection Agency, greenhouse gas emissions from transportation account for about 27% of total U.S. greenhouse gas emissions, making it the largest contributor of U.S. greenhouse gas emissions. Alongside this, the emissions produced by transportation have been rapidly increasing over the years. By taking alternative means of transportation, you are helping to reduce these emissions!</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="28"/>
                                 <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1334,25 +1346,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="OBO-dt-muc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="le9-zU-66z">
-                                <rect key="frame" x="102" y="138" width="205" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Dingbats" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="dingBats:" destination="6q0-iu-UA0" eventType="touchUpInside" id="Gh0-vE-gd5"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="OBO-dt-muc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSD-gX-dmE">
@@ -1408,7 +1406,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjN-Bd-XZM">
-                                <rect key="frame" x="35" y="566" width="317" height="209"/>
+                                <rect key="frame" x="49" y="569" width="317" height="209"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Fast fashion brands such as Shein, Urban Outfitters, H&amp;M.
 
@@ -1419,6 +1417,22 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="le9-zU-66z">
+                                <rect key="frame" x="102" y="138" width="205" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dingbats" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dingBats:" destination="6q0-iu-UA0" eventType="touchUpInside" id="Gh0-vE-gd5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LPE-ZY-xs6"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -1456,7 +1470,9 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="HaH-WE-qoH"/>
                                 </connections>
@@ -1595,7 +1611,9 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Ns4-j2-Ftg"/>
                                 </connections>
@@ -1604,7 +1622,7 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <rect key="frame" x="24" y="191" width="137" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1612,7 +1630,7 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <rect key="frame" x="22" y="447" width="175" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1784,11 +1802,11 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3g4-SU-hFb">
-                                <rect key="frame" x="9" y="180" width="398" height="531"/>
+                                <rect key="frame" x="22" y="191" width="374" height="520"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Eating plant based meals rather than meat-based ones is one of the best ways to reduce your environmental impact. The meat and dairy industries are some of the most harmful industries as a result of their environmental impact, poor treatment of animals, and dangerous use of antibiotics (which can lead to antibiotic resistant bacteria). A key player in these industries’ environmental impact is the methane gas caused by cow farts and burps, which acts as an insulator for heat and greenhouse gasses which contributes to global warming. (Who knew that farts were such a big issue?) Thankfully, studies have shown that the amount of methane gas produced by cows can be reduced by incorporating seaweed into their diets!</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <string key="text">Eating plant based meals rather than meat-based ones is one of the best ways to reduce your environmental impact. The meat and dairy industries are some of the most harmful industries as a result of their environmental impact, poor treatment of animals, and dangerous use of antibiotics (which can lead to antibiotic resistant bacteria). A key player in these industries’ environmental impact is the methane gas caused by cow farts and burps, which acts as an insulator for heat and greenhouse gasses which contributes to global warming. (Who knew that farts were such a big issue?) Thankfully, studies have shown that the amount of methane gas produced by cows can be reduced by incorporating seaweed into their diets!</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="23"/>
                                 <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1855,11 +1873,13 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwM-zN-1wL">
-                                <rect key="frame" x="0.0" y="772" width="109" height="90"/>
+                                <rect key="frame" x="0.0" y="770" width="109" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="T5e-kN-mPc"/>
                                 </connections>
@@ -1880,7 +1900,7 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <rect key="frame" x="22" y="191" width="137" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1888,7 +1908,7 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <rect key="frame" x="20" y="447" width="175" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2036,11 +2056,11 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pdr-VH-gHD">
-                                <rect key="frame" x="9" y="186" width="397" height="525"/>
+                                <rect key="frame" x="20" y="191" width="374" height="520"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">In 2018, the Environmental Protection Agency projected that the average American produced 4.9 pounds of trash a day. This waste usually moves from landfills into oceans and water, polluting natural resources. This is why reducing our waste is key. The optimal way to reduce our waste is by reducing our consumption of products with plastic packaging, and especially supporting businesses with compostable packaging. Even if you are not buying compostable packaging, you can compost your food waste to make some extremely nutritious soil for your garden!</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <mutableString key="text">In 2018, the Environmental Protection Agency projected that the average American produced 4.9 pounds of trash a day. This waste usually moves from landfills into oceans and water, polluting natural resources. This is why reducing our waste is key. The optimal way to reduce our waste is by reducing our consumption of products with plastic packaging, and especially supporting businesses with compostable packaging. Even if you are not buying compostable packaging, you can compost your food waste to make extremely nutritious soil for your garden!</mutableString>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="26"/>
                                 <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2121,7 +2141,9 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="IJ4-gi-Tm8"/>
                                 </connections>
@@ -2130,7 +2152,7 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <rect key="frame" x="22" y="191" width="137" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2138,7 +2160,7 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <rect key="frame" x="20" y="447" width="175" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2314,11 +2336,11 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqu-xx-Oux">
-                                <rect key="frame" x="20" y="191" width="397" height="525"/>
+                                <rect key="frame" x="20" y="191" width="374" height="525"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95450908999999995" green="0.89967442180000001" blue="0.82294461490000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">According to the Environmental Protection Agency, the average American family uses more than 300 gallons of water per day at home, and 70% of that is indoor use. Overuse of freshwater can lead to lowered groundwater tables, and due to the intensive treatment water must go through, affects the air quality and climate change. Very little freshwater is actually used by individuals; in the US, 45% of water is used for thermoelectric power, and 32% is used for irrigation. However, this shouldn’t discourage you from conserving water; even the smallest changes can make a difference! </mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <string key="text">According to the Environmental Protection Agency, the average American family uses more than 300 gallons of water per day at home, and 70% of that is indoor use. Overuse of freshwater can lead to lowered groundwater tables, and due to the intensive treatment water must go through, affects the air quality and climate change. Very little freshwater is actually used by individuals; in the US, 45% of water is used for thermoelectric power, and 32% is used for irrigation. However, this shouldn’t discourage you from conserving water; even the smallest changes can make a difference! </string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="26"/>
                                 <color key="textColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2369,46 +2391,31 @@ For the most part, any mega-corporations that produce a product for mass consump
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="ga7-fL-tap"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz7-ji-SX7">
-                                <rect key="frame" x="20" y="245" width="374" height="180"/>
+                                <rect key="frame" x="26" y="245" width="362" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">There’s lots of produce that you are all probably familiar with that grows in New York, but there are some you may find in your farmer’s market that you have never heard of before such as Swiss Chard or Turnip Greens. You can use them for lots of recipes such as a swiss chard gratin or stir fry them both for an easy and sustainable meal. If you want to find the vegetables in season, </string>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Local Produce:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebG-WU-wuK">
-                                <rect key="frame" x="20" y="208" width="182" height="44"/>
+                                <rect key="frame" x="116" y="204" width="182" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="25"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiE-iz-PLO">
-                                <rect key="frame" x="26" y="422" width="362" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="click here!" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.71764707569999997" green="0.74901962280000001" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="addCity:" destination="vVd-ub-W7i" eventType="touchUpInside" id="5aR-NH-Ecv"/>
-                                    <action selector="newYorkProduce:" destination="Xjq-fx-dMS" eventType="touchUpInside" id="BaO-x7-BTV"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cx9-bj-dsk">
-                                <rect key="frame" x="95" y="539" width="224" height="235"/>
+                                <rect key="frame" x="95" y="584" width="224" height="235"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">350 Brooklyn is hosting a phone bank in order to help pass the ‘skip the stuff’ bill, Monday, July 25th at noon.
 
@@ -2418,10 +2425,10 @@ Climate Week NYC on September 19-25 where you can go to all sorts of events to l
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Events:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dwb-WW-Ozp">
-                                <rect key="frame" x="116" y="495" width="182" height="44"/>
+                                <rect key="frame" x="116" y="532" width="182" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="25"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2436,6 +2443,23 @@ Climate Week NYC on September 19-25 where you can go to all sorts of events to l
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="vVd-ub-W7i" kind="presentation" modalPresentationStyle="fullScreen" id="bPy-ut-saf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiE-iz-PLO">
+                                <rect key="frame" x="26" y="465" width="362" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Click here to find one near you!" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.71764707569999997" green="0.74901962280000001" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="addCity:" destination="vVd-ub-W7i" eventType="touchUpInside" id="5aR-NH-Ecv"/>
+                                    <action selector="newYorkProduce:" destination="Xjq-fx-dMS" eventType="touchUpInside" id="BaO-x7-BTV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2472,7 +2496,9 @@ Climate Week NYC on September 19-25 where you can go to all sorts of events to l
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.1056898032" green="0.36151841489999997" blue="0.17922237620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="jqG-ID-ZM4"/>
                                 </connections>
@@ -2481,29 +2507,21 @@ Climate Week NYC on September 19-25 where you can go to all sorts of events to l
                                 <rect key="frame" x="116" y="216" width="182" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s64-ec-2h9">
-                                <rect key="frame" x="29" y="249" width="358" height="157"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">In Chicago you can go to the many farmers markets in the area or you can have the farmers market come to you. There are lots of great resources that farmers can use to ship groceries directly to your home.</string>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="25"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63c-qG-gJX">
-                                <rect key="frame" x="27" y="390" width="362" height="45"/>
+                                <rect key="frame" x="27" y="405" width="362" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.1394508515" green="0.35053559919999999" blue="0.1473636508" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="click here for them!" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="plain" title="Click here to find one near you!" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.71764707569999997" green="0.74901962280000001" blue="0.63137257099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="addCity:" destination="vVd-ub-W7i" eventType="touchUpInside" id="qNr-X4-nPC"/>
@@ -2523,7 +2541,7 @@ Climate Week NYC on September 19-25 where you can go to all sorts of events to l
                                 <rect key="frame" x="116" y="491" width="182" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.67450980390000004" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="25"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2540,6 +2558,14 @@ Climate Week NYC on September 19-25 where you can go to all sorts of events to l
                                     <segue destination="vVd-ub-W7i" kind="presentation" modalPresentationStyle="fullScreen" id="Z0W-gN-lcu"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s64-ec-2h9">
+                                <rect key="frame" x="29" y="248" width="358" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">In Chicago you can go to the many farmers markets in the area or you can have the farmers market come to you. There are lots of great resources that farmers can use to ship groceries directly to your home.</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CS6-Sc-30M"/>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.8980392157" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -2555,8 +2581,8 @@ Climate Week NYC on September 19-25 where you can go to all sorts of events to l
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4mm-AP-ZsD"/>
-        <segue reference="bPy-ut-saf"/>
+        <segue reference="lB7-T4-TZ8"/>
+        <segue reference="Txl-1m-xKd"/>
         <segue reference="ekP-bH-Gka"/>
     </inferredMetricsTieBreakers>
     <resources>
