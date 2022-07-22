@@ -177,7 +177,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxx-3v-5k5">
                                 <rect key="frame" x="16" y="632" width="256" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Calista is a rising college freshman from Portland, Oregon. She aspires to someday become a neuroscientist and study the intersections between gender and healthcare while encouragine women to pursue STEM!</string>
+                                <string key="text">Calista is a rising college freshman from Portland, Oregon. She aspires to someday become a neuroscientist and study the intersections between gender and healthcare while encouraging women to pursue STEM!</string>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
                                 <color key="textColor" red="0.079779962839999996" green="0.2815646396" blue="0.059621576779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
